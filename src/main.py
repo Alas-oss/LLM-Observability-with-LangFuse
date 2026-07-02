@@ -1,12 +1,12 @@
 import os
 import time
 from dotenv import load_dotenv
-from langfuse import Lagnfuse
+from langfuse import Langfuse
 from openai import OpenAI
 
 load_dotenv()
 
-langfuse = Lagnfuse(
+langfuse = Langfuse(
     public_key=os.getnev("LANGFUSE_PUBLIC_KEY"),
     secret_key=os.getenv("LANGFUSE_SECRET_KEY"),
     host=os.getenv("LANGFUSE_HOST")
