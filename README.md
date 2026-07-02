@@ -2,7 +2,7 @@
 
 An instrumented Retrieval-Augmented Generation (RAG) agent pipeline built with Python tracking integrations and monitored using Langfuse Cloud Analytics. Runs using Groq API inference execution models.
 
-## Installation & Local Replication (< 5 Minutes)
+## Installation & Local Replication
 
 ### 1. Prerequisites & Environment Initialization
 Ensure that Python 3.11+ is downloaded and the `uv` tool runner set up on the local machine. Initialize the environment:
